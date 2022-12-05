@@ -1,6 +1,6 @@
-const main = document.querySelector("main");
-main.remove();
+document.querySelector('main').remove();
+document.querySelector('h1#victory');
 const newHeader = document.createElement('h1');
-document.body.append(newHeader);
-newHeader.id = 'victory';
-newHeader.innerHTML ="Ella is the champion"
+newHeader.id ="victory"
+newHeader.innerHTML = "Ella is the champion"
+document.body.prepend(newHeader);
